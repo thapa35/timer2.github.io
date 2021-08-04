@@ -40,7 +40,7 @@ margin: auto;
 #swap {
     cursor: pointer;
 }
-#reset,#pause,#swap,#pause {
+#reset,#pause,#swap,#playstate {
     background-color: pink;
     cursor: pointer;
 }
