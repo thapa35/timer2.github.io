@@ -62,4 +62,7 @@ margin: auto;
     #player2 {
     grid-area: 1/2/1/span 1;
     }
+    h1 {
+        font-size: 0.5em;
+    }
 }
