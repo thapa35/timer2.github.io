@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#chess {
+    width: 80vw;
+    display: grid;
+    grid-gap: 25%;
+    grid-template: 10% 10% 10% 10%/25% 25% 25%;
+    height: 60vh;
+}
+
+
+.players {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 75%;
+    grid-area: 1/1/span 3/span 1;
+}
+#player2 {
+grid-area: 1/3/span 3/span 1;
+}
+.timers {
+    border: 2px solid blue;
+}
+.name {
+    border: 2px solid blue;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+}
+div.timers>h1  {
+text-align: center;
+margin: auto;
+}
+#playstate {
+    cursor: pointer;
+}
+#swap {
+    cursor: pointer;
+}
+#reset,#pause,#swap,#pause {
+    background-color: pink;
+    cursor: pointer;
+}
